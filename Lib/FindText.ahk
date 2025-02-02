@@ -2242,7 +2242,7 @@ ObjView(obj, keyname:="")
     return s
   ;------------------
   _Gui:=Gui("+AlwaysOnTop")
-  _Gui.Add("Button", "y270 w350 Default", "OK").OnEvent("Click",(*)=>WinHide())
+  _Gui.Add("Button", "y328 w350 Default", "OK").OnEvent("Click",(*)=>WinHide())
   _Gui.Add("Edit", "xp y10 w350 h250 -Wrap -WantReturn")
   _Gui["Edit1"].Value:=s
   _Gui.Title:="Debug view object values"
