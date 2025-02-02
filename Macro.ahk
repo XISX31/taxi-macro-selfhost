@@ -1183,7 +1183,7 @@ TPtoSpawn() {
         SendInput("{WheelDown 1}") ; scroll
     }
     Sleep 600
-    BetterClick(523, 271) ; tp to spawn
+    BetterClick(523, 328) ; tp to spawn
     Sleep 600
     BetterClick(582, 150) ; exit settings
 
